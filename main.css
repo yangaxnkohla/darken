@@ -1,0 +1,32 @@
+html body {
+    background-color: black;
+}
+
+header > div { 
+    background-color: black;
+}
+
+input {
+    background-color: white !important;
+}
+
+div[role="presentation"] {
+    color: white;
+}
+
+a[role="menuitem"] {
+    color: white  !important;
+}
+
+div[role="menuitem"] {
+    color: white  !important;
+}
+
+a[target] {
+    color: white  !important;
+}
+
+*:not(button, span, svg, path, input, div[role="button"], header > *) {
+    color: white  !important; 
+}
+ /* TODO : fix search and settings */
